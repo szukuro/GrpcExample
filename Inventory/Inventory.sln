@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryAPI", "InventoryAPI\InventoryAPI.csproj", "{E7415F90-57B0-4599-A613-47A484A224C2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryApp", "InventoryApp\InventoryApp.csproj", "{242C2DDA-0851-4AE3-9C27-AD2A6FABD551}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E7415F90-57B0-4599-A613-47A484A224C2} = {E7415F90-57B0-4599-A613-47A484A224C2}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
